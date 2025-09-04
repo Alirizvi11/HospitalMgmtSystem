@@ -52,8 +52,9 @@ A full-featured desktop application built with Python and Oracle Database to str
 ## 📂 Folder Structure
 ---
 
-HospitalManagementSystem/ 
+HospitalManagementSystem/
 ├── pycache/ # Python cache files (ignored) 
+
 ├── ui/
 |   └── dashboard_ui.py 
 |   └── welcome_ui.py  
@@ -67,9 +68,11 @@ HospitalManagementSystem/
 |   └── user_login.py 
 |   └── register_ui.py 
 |   └── report_ui.py 
+
 ├── services/  # Backend logic and helpers  
 |   └── auth_service.py
-|   └── pdf_generator.py  
+|   └── pdf_generator.py 
+
 ├── screenshots/ # UI screenshots for README  
 |   └── Login.png
 |   └── Dashboard.png
@@ -77,6 +80,7 @@ HospitalManagementSystem/
 |   └── GenerateRecipt.png
 |   └── AddPatient.png
 |   └── BillReciptPdf.png
+
 └── main.py # Entry point for launching the app 
 └── appointment.py # Appointment details
 └── billing.py  # Bill generation and DB insert 
@@ -88,8 +92,8 @@ HospitalManagementSystem/
 └── .gitignore # Git ignore rules
 └── requirements.txt # Requirements , Dependencies.
 └── bill_receipt.pdf  # PDF receipt creation using ReportLab
----
 
+---
 ## Requirements
 - *Python 3.6+*
 - *Oracle Instant Client*: [Download from Oracle](https://www.oracle.com/database/technologies/instant-client.html)
