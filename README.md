@@ -22,7 +22,7 @@ A full-featured desktop application built with Python and Oracle Database to str
 |--------------|------------------------|
 | Frontend     | Tkinter (Python GUI)   |
 | Backend      | Python (modular files) |
-| Database     | Oracle 21c             |
+| Database     | Oracle 19c             |
 | PDF Engine   | ReportLab              |
 | Auth System  | USERS table validation |
 
@@ -52,7 +52,9 @@ A full-featured desktop application built with Python and Oracle Database to str
 ---
 
 ## 📂 Folder Structure
-## 📂 Folder Structure
+=======
+
+>>>>>>> 01eaf7284449b80ef588c32554a6ed7e51ff0443
 HospitalManagementSystem/ 
 ├── pycache/ # Python cache files (ignored) 
 ├──ui/
@@ -131,6 +133,7 @@ CREATE TABLE users (
     password VARCHAR2(100),
     email VARCHAR2(100)
 );
+<<<<<<< HEAD
 
 ## 🔄 How It Works
 
@@ -155,3 +158,5 @@ CREATE TABLE users (
 7. **Screenshots & PDF Receipts**  
    All UI flows are documented with screenshots, and receipts are downloadable as PDFs.
 
+=======
+>>>>>>> 01eaf7284449b80ef588c32554a6ed7e51ff0443
