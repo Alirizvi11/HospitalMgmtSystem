@@ -51,8 +51,9 @@ A full-featured desktop application built with Python and Oracle Database to str
 
 ---
 
-## 📂 Folder Structure
+
 =======
+## 📂 Folder Structure
 HospitalManagementSystem/ 
 ├── pycache/ # Python cache files (ignored) 
 ├── ui/
