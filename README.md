@@ -52,8 +52,44 @@ A full-featured desktop application built with Python and Oracle Database to str
 ---
 
 ## 📂 Folder Structure
-HospitalManagementSystem/ ├── main.py # Entry point for launching the app ├── dashboard.py # Main dashboard interface ├── welcome.py # Welcome screen logic ├── login_page.py # Login form and validation ├── appointment_ui.py # Appointment booking and viewing ├── billing_ui.py # Billing form and PDF download ├── patient_details.py # Patient info display and editing ├── doctor_login.py # Doctor login module ├── doctor_register.py # Doctor registration form ├── user_login.py # User login module ├── user_register.py # User registration form ├── register_user.py # Backend logic for user registration ├── report/ # Report generation and PDF templates │ ├── test_report.pdf # Sample generated report │ └── report_logic.py # PDF generation logic ├── services/ # Backend logic and helpers │ ├── billing.py # Bill generation and DB insert │ ├── patient.py # Patient record management │ ├── pdf_generator.py # PDF receipt creation using ReportLab ├── screenshots/ # UI screenshots for README │ ├── login_page.png │ ├── dashboard.png │ ├── billing_page.png │ ├── patient_details.png │ ├── bill_pdf.png ├── pycache/ # Python cache files (ignored) ├── .gitignore # Git ignore rules ├── README.md # Project documentation
-
+## 📂 Folder Structure
+HospitalManagementSystem/ 
+├── pycache/ # Python cache files (ignored) 
+├──ui/
+|      ├── dashboard_ui.py # Main dashboard interface
+|      ├── welcome_ui.py # Welcome screen logic 
+|      ├── login_page.py # Login form and validation 
+|      ├── appointment_ui.py # Appointment booking and viewing 
+|      ├── billing_ui.py # Billing form and PDF download 
+|      ├── patient_details.py # Patient info display and editing 
+|      ├── doctor_ui.py # Doctor login module 
+|      ├── medications_ui.py # Medication Recommendation
+|      ├── doctor_register.py # Doctor registration form 
+|      ├── user_login.py # User login module 
+|      ├── register_ui.py # User registration form 
+|      ├── report_ui.py # Backend logic for user registration
+├──services/  # Backend logic and helpers  
+|            ├──auth_service.py
+|            ├──pdf_generator.py  # PDF receipt creation using ReportLab
+├── screenshots/ # UI screenshots for README  
+|            ├── Login.png
+|            ├── Dashboard.png
+|            ├── BookAppointment.png
+|            ├── GenerateRecipt.png
+|            ├── AddPatient.png
+|            ├── BillReciptPdf.png
+├── main.py # Entry point for launching the app 
+├── appointment.py # Appointment details
+├── billing.py  # Bill generation and DB insert 
+├── db.py  # Patient record management 
+├── doctor.py # Doctor record management
+├── patient.py  # Patient record management
+├── test_pdf.py # Sample generated report
+├── README.md  # Project documentation
+├──.gitignore # Git ignore rules
+├──requirements.txt # Requirements , Dependencies.
+├──bill_receipt.pdf  # PDF receipt creation using ReportLab
+     
 ---
 ## Requirements
 - *Python 3.6+*
@@ -95,3 +131,27 @@ CREATE TABLE users (
     password VARCHAR2(100),
     email VARCHAR2(100)
 );
+
+## 🔄 How It Works
+
+1. **Login System**  
+   Users (admin, doctor, staff) log in using credentials stored in the Oracle `USERS` table.
+
+2. **Dashboard Navigation**  
+   After login, users access modules like Patient Management, Billing, Appointments, and Reports.
+
+3. **Patient Registration**  
+   New patients are added via a Tkinter form and stored in the `PATIENTS` table.
+
+4. **Appointment Booking**  
+   Appointments are scheduled and tracked using the `APPOINTMENTS` table.
+
+5. **Billing & PDF Generation**  
+   Bills are created with `SYSDATE`, stored in `BILLING`, and receipts are generated using ReportLab.
+
+6. **Report & Medication Modules**  
+   Doctors can view patient history, prescribe medications, and generate reports.
+
+7. **Screenshots & PDF Receipts**  
+   All UI flows are documented with screenshots, and receipts are downloadable as PDFs.
+
