@@ -49,11 +49,9 @@ A full-featured desktop application built with Python and Oracle Database to str
 ### 🧾 Bill PDF Receipt
 ![Bill PDF](screenshots/BillReciptPdf.png)
 
+## 📂 Folder Structure
 ---
 
-
-=======
-## 📂 Folder Structure
 HospitalManagementSystem/ 
 ├── pycache/ # Python cache files (ignored) 
 ├── ui/
@@ -90,8 +88,8 @@ HospitalManagementSystem/
 └── .gitignore # Git ignore rules
 └── requirements.txt # Requirements , Dependencies.
 └── bill_receipt.pdf  # PDF receipt creation using ReportLab
-     
 ---
+
 ## Requirements
 - *Python 3.6+*
 - *Oracle Instant Client*: [Download from Oracle](https://www.oracle.com/database/technologies/instant-client.html)
