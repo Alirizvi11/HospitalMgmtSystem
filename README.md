@@ -53,7 +53,7 @@ A full-featured desktop application built with Python and Oracle Database to str
 ---
 
 HospitalManagementSystem/
-├── pycache/ # Python cache files (ignored) 
+├── pycache/          # Python cache files (ignored) 
 
 ├── ui/
 |   └── dashboard_ui.py 
@@ -69,11 +69,11 @@ HospitalManagementSystem/
 |   └── register_ui.py 
 |   └── report_ui.py 
 
-├── services/  # Backend logic and helpers  
+├── services/         # Backend logic and helpers  
 |   └── auth_service.py
 |   └── pdf_generator.py 
 
-├── screenshots/ # UI screenshots for README  
+├── screenshots/      # UI screenshots for README  
 |   └── Login.png
 |   └── Dashboard.png
 |   └── BookAppointment.png
@@ -81,16 +81,16 @@ HospitalManagementSystem/
 |   └── AddPatient.png
 |   └── BillReciptPdf.png
 
-└── main.py # Entry point for launching the app 
-└── appointment.py # Appointment details
-└── billing.py  # Bill generation and DB insert 
-└── db.py  # Patient record management 
-└── doctor.py # Doctor record management
-└── patient.py  # Patient record management
-└── test_pdf.py # Sample generated report
-└── README.md  # Project documentation
-└── .gitignore # Git ignore rules
-└── requirements.txt # Requirements , Dependencies.
+└── main.py           # Entry point for launching the app 
+└── appointment.py    # Appointment details
+└── billing.py        # Bill generation and DB insert 
+└── db.py             # Patient record management 
+└── doctor.py         # Doctor record management
+└── patient.py        # Patient record management
+└── test_pdf.py       # Sample generated report
+└── README.md         # Project documentation
+└── .gitignore        # Git ignore rules
+└── requirements.txt  # Requirements , Dependencies.
 └── bill_receipt.pdf  # PDF receipt creation using ReportLab
 
 ---
