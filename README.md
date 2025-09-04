@@ -57,21 +57,21 @@ A full-featured desktop application built with Python and Oracle Database to str
 HospitalManagementSystem/ 
 ├── pycache/ # Python cache files (ignored) 
 ├── ui/
-|   └── dashboard_ui.py # Main dashboard interface
-|   └── welcome_ui.py # Welcome screen logic 
-|   └── login_page.py # Login form and validation 
-|   └── appointment_ui.py # Appointment booking and viewing 
-|   └── billing_ui.py # Billing form and PDF download 
-|   └── patient_details.py # Patient info display and editing 
-|   └── doctor_ui.py # Doctor login module 
-|   └── medications_ui.py # Medication Recommendation
-|   └── doctor_register.py # Doctor registration form 
-|   └── user_login.py # User login module 
-|   └── register_ui.py # User registration form 
-|   └── report_ui.py # Backend logic for user registration
+|   └── dashboard_ui.py 
+|   └── welcome_ui.py  
+|   └── login_page.py 
+|   └── appointment_ui.py 
+|   └── billing_ui.py  
+|   └── patient_details.py 
+|   └── doctor_ui.py 
+|   └── medications_ui.py 
+|   └── doctor_register.py  
+|   └── user_login.py 
+|   └── register_ui.py 
+|   └── report_ui.py 
 ├── services/  # Backend logic and helpers  
 |   └── auth_service.py
-|   └── pdf_generator.py  # PDF receipt creation using ReportLab
+|   └── pdf_generator.py  
 ├── screenshots/ # UI screenshots for README  
 |   └── Login.png
 |   └── Dashboard.png
@@ -79,17 +79,17 @@ HospitalManagementSystem/
 |   └── GenerateRecipt.png
 |   └── AddPatient.png
 |   └── BillReciptPdf.png
-├── main.py # Entry point for launching the app 
-├── appointment.py # Appointment details
-├── billing.py  # Bill generation and DB insert 
-├── db.py  # Patient record management 
-├── doctor.py # Doctor record management
-├── patient.py  # Patient record management
-├── test_pdf.py # Sample generated report
-├── README.md  # Project documentation
-├──.gitignore # Git ignore rules
-├── requirements.txt # Requirements , Dependencies.
-├── bill_receipt.pdf  # PDF receipt creation using ReportLab
+└── main.py # Entry point for launching the app 
+└── appointment.py # Appointment details
+└── billing.py  # Bill generation and DB insert 
+└── db.py  # Patient record management 
+└── doctor.py # Doctor record management
+└── patient.py  # Patient record management
+└── test_pdf.py # Sample generated report
+└── README.md  # Project documentation
+└── .gitignore # Git ignore rules
+└── requirements.txt # Requirements , Dependencies.
+└── bill_receipt.pdf  # PDF receipt creation using ReportLab
      
 ---
 ## Requirements
