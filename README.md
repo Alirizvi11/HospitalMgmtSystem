@@ -1,13 +1,60 @@
-<<<<<<< HEAD
-# Hospital Management System
+# 🏥 Hospital Management System
 
-A simple Hospital Management System using *Oracle Database* for backend and *Tkinter* for the frontend.
+A full-featured desktop application built with Python and Oracle Database to streamline hospital operations — from patient registration to billing and PDF receipt generation.
 
-## Features
-- User registration.
-- Store patient data in Oracle Database.
-- View and update records.
+---
 
+## 🚀 Features
+
+- 🔐 Role-based login system (admin, doctor, etc.)
+- 🧑‍⚕️ Add and manage patient records
+- 📅 Book and view appointments
+- 💰 Generate bills with automatic timestamps
+- 🧾 Download PDF receipts with patient details
+- 💊 Track medications and doctor info
+- 📊 Dashboard with modular navigation
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Technology             |
+|--------------|------------------------|
+| Frontend     | Tkinter (Python GUI)   |
+| Backend      | Python (modular files) |
+| Database     | Oracle 21c             |
+| PDF Engine   | ReportLab              |
+| Auth System  | USERS table validation |
+
+---
+
+=======
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login Page](screenshots/Login.png)
+
+### 🏥 Dashboard
+![Dashboard](screenshots/Dashboard.png)
+
+### 🧑‍⚕️ Appointment
+![BookAppointment](screenshots/BookAppointment.png)
+
+### 💰 Billing Module
+![Billing](screenshots/GenerateRecipt.png)
+
+### 🧑‍⚕️ Patient Details
+![Patient Details](screenshots/AddPatient.png)
+
+### 🧾 Bill PDF Receipt
+![Bill PDF](screenshots/BillReciptPdf.png)
+
+---
+
+## 📂 Folder Structure
+HospitalManagementSystem/ ├── main.py # Entry point for launching the app ├── dashboard.py # Main dashboard interface ├── welcome.py # Welcome screen logic ├── login_page.py # Login form and validation ├── appointment_ui.py # Appointment booking and viewing ├── billing_ui.py # Billing form and PDF download ├── patient_details.py # Patient info display and editing ├── doctor_login.py # Doctor login module ├── doctor_register.py # Doctor registration form ├── user_login.py # User login module ├── user_register.py # User registration form ├── register_user.py # Backend logic for user registration ├── report/ # Report generation and PDF templates │ ├── test_report.pdf # Sample generated report │ └── report_logic.py # PDF generation logic ├── services/ # Backend logic and helpers │ ├── billing.py # Bill generation and DB insert │ ├── patient.py # Patient record management │ ├── pdf_generator.py # PDF receipt creation using ReportLab ├── screenshots/ # UI screenshots for README │ ├── login_page.png │ ├── dashboard.png │ ├── billing_page.png │ ├── patient_details.png │ ├── bill_pdf.png ├── pycache/ # Python cache files (ignored) ├── .gitignore # Git ignore rules ├── README.md # Project documentation
+
+---
 ## Requirements
 - *Python 3.6+*
 - *Oracle Instant Client*: [Download from Oracle](https://www.oracle.com/database/technologies/instant-client.html)
@@ -48,7 +95,3 @@ CREATE TABLE users (
     password VARCHAR2(100),
     email VARCHAR2(100)
 );
-=======
-# HospitalMgmtSystem
-hii
->>>>>>> f1858ddd6f341d7b845d98043b96c2e0b88088aa
