@@ -134,8 +134,13 @@ CREATE TABLE users (
     password VARCHAR2(100),
     email VARCHAR2(100)
 );
+
 ---
 
+
+=======
+
+---
 ## 🔄 How It Works
 
 1. **Login System**  
@@ -159,5 +164,4 @@ CREATE TABLE users (
 7. **Screenshots & PDF Receipts**  
    All UI flows are documented with screenshots, and receipts are downloadable as PDFs.
 
-=======
->>>>>>> 01eaf7284449b80ef588c32554a6ed7e51ff0443
+---
