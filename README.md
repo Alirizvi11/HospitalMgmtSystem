@@ -100,7 +100,8 @@ HospitalManagementSystem/
 - *Libraries*:
   - cx_Oracle - To connect to Oracle database.
   - tkinter - For the frontend UI.
-
+    
+---
 ## Setup Instructions
 
 ### 1. Install Oracle Instant Client
@@ -122,7 +123,7 @@ HospitalManagementSystem/
      
    - This will open a window where you can input a username, password, and email, and then register a new user into the database.
 
-## Database Setup
+### 5. Database Setup
 
 The project assumes you have a table named users with the following schema:
 
@@ -133,7 +134,7 @@ CREATE TABLE users (
     password VARCHAR2(100),
     email VARCHAR2(100)
 );
-<<<<<<< HEAD
+---
 
 ## 🔄 How It Works
 
