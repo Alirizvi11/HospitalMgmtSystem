@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hospital Management System
 
 A simple Hospital Management System using *Oracle Database* for backend and *Tkinter* for the frontend.
@@ -47,3 +48,7 @@ CREATE TABLE users (
     password VARCHAR2(100),
     email VARCHAR2(100)
 );
+=======
+# HospitalMgmtSystem
+hii
+>>>>>>> f1858ddd6f341d7b845d98043b96c2e0b88088aa
