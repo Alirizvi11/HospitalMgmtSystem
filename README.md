@@ -57,28 +57,28 @@ A full-featured desktop application built with Python and Oracle Database to str
 HospitalManagementSystem/ 
 ├── pycache/ # Python cache files (ignored) 
 ├── ui/
-|------├── dashboard_ui.py # Main dashboard interface
-|------├── welcome_ui.py # Welcome screen logic 
-|------├── login_page.py # Login form and validation 
-|------├── appointment_ui.py # Appointment booking and viewing 
-|------├── billing_ui.py # Billing form and PDF download 
-|------├── patient_details.py # Patient info display and editing 
-|------├── doctor_ui.py # Doctor login module 
-|------├── medications_ui.py # Medication Recommendation
-|------├── doctor_register.py # Doctor registration form 
-|------├── user_login.py # User login module 
-|------├── register_ui.py # User registration form 
-|------├── report_ui.py # Backend logic for user registration
+|   └── dashboard_ui.py # Main dashboard interface
+|   └── welcome_ui.py # Welcome screen logic 
+|   └── login_page.py # Login form and validation 
+|   └── appointment_ui.py # Appointment booking and viewing 
+|   └── billing_ui.py # Billing form and PDF download 
+|   └── patient_details.py # Patient info display and editing 
+|   └── doctor_ui.py # Doctor login module 
+|   └── medications_ui.py # Medication Recommendation
+|   └── doctor_register.py # Doctor registration form 
+|   └── user_login.py # User login module 
+|   └── register_ui.py # User registration form 
+|   └── report_ui.py # Backend logic for user registration
 ├── services/  # Backend logic and helpers  
-|------------├──auth_service.py
-|------------├──pdf_generator.py  # PDF receipt creation using ReportLab
+|   └── auth_service.py
+|   └── pdf_generator.py  # PDF receipt creation using ReportLab
 ├── screenshots/ # UI screenshots for README  
-|------------├── Login.png
-|------------├── Dashboard.png
-|------------├── BookAppointment.png
-|------------├── GenerateRecipt.png
-|------------├── AddPatient.png
-|------------├── BillReciptPdf.png
+|   └── Login.png
+|   └── Dashboard.png
+|   └── BookAppointment.png
+|   └── GenerateRecipt.png
+|   └── AddPatient.png
+|   └── BillReciptPdf.png
 ├── main.py # Entry point for launching the app 
 ├── appointment.py # Appointment details
 ├── billing.py  # Bill generation and DB insert 
